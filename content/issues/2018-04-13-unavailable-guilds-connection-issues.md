@@ -5,6 +5,6 @@ resolved: false
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - CANTV
+  - CANTV-Oficina
 section: issue
 ---
