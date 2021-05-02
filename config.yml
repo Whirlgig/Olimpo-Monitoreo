@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://olimpo-monitoreo.netlify.app/
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -156,17 +156,17 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: CANTV
+    - name: CANTV-Oficina
       category: Oficina
-    - name: Satelital
+    - name: Satelital-Oficina
       category: Oficina
-    - name: Datos
+    - name: Datos-Oficina
       category: Oficina
-    - name: CANTV
+    - name: CANTV-Casa
       category: Casa
-    - name: Satelital
+    - name: Satelital-Casa
       category: Casa
-    - name: Datos
+    - name: Datos-Casa
       category: Casa
 
   # What date format to use?
@@ -179,7 +179,7 @@ params:
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
   dateFormat: January 2, 2006 at 3:04 PM UTC
-  shortDateFormat: 15:04 UTC — Jan 2
+  shortDateFormat: 15:04 UTC-4 — Jan 2
 
   # Should relative time (x min ago) be used?
   #
@@ -250,7 +250,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableIncidentHistory: false
+  disableIncidentHistory: true
 
   # Disable dark mode
   #
